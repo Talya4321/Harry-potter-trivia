@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Trivia Game</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <center>
+        <br>
+        <h1>Harry Potter Trivia</h1>
+        <br>
+        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-11 login_div_1">
+            <h2>Player 1 login for the game</h2>
+            <label>Username:</label>
+            <input style="width: 500px;" type="text" class="form-control" id="p1_name" placeholder="enter player 1's name">
+            <br>
+        </div>
+        <br>
+        <br>
+        <div class="col-lg-4 col-md-4 col-sm-8 col-xs-11 login_div_2">
+            <h2>Player 2 login for the game</h2>
+            <label>Username:</label>
+            <input style="width: 500px;" type="text" class="form-control" id="p2_name" placeholder="enter player 2's name">
+            <br>
+        </div>
+        <br>
+        <button style="background-color: rgb(255, 255, 236);
+        border: 5px double rgb(216, 216, 130);
+        border-radius: 15px;" onclick="startgame()" style="width: 30%;">Start the game</button>
+    </center>
+    <script src="main.js"></script>
+</body>
+</html>

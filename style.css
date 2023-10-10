@@ -1,0 +1,33 @@
+body{
+    background-image: url("hogwarts.png");
+    font-size: 40px;
+}
+.login_div_1,.login_div_2{
+    background-color: rgb(255, 255, 236);
+    border: rgb(216, 216, 130) 10px double;
+    border-radius: 30px;
+    float: none;
+}
+h1,#title2{
+    color: black;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'Caveat', cursive;
+    background-color: white;
+    width: 450px;
+    border-radius: 50px;
+}
+#p1_name, #p2_name, #player_question, #player_answer,#player1_score,#player2_score{
+    color: black;
+}
+#p1_name, #p2_name{
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 30px;
+}
+#player1_score,#player2_score{
+    font-size: 30px;
+}
+#ans{
+    display: none;
+}
